@@ -29,7 +29,7 @@
 
 ## 폴더 구조
 
-```plaintext
+plaintext
 FoodProject/
 ├── data/
 │   ├── train/         # 학습 이미지 (음식별 폴더로 분류됨) # 필요시 별도 다운로드
@@ -40,13 +40,14 @@ FoodProject/
 ├── Foodimage_AI.py    # AI 학습 코드
 ├── predict.py         # 예측 및 결과 출력 코드
 ├── split_food101.py   # 이미지 분할 스크립트
-└── README.md          # 📄 이 문서
+└── README.md          # 이 문서
 
 ---
 
 ## 학습 성능 평가
-모델 정확도
-항목	결과
-최종 학습 정확도 (accuracy)	99.7%
-최종 검증 정확도 (val_accuracy)	약 42%
-최종 검증 손실 (val_loss)	약 3.69
+
+| 항목 | 결과 |
+|------|------|
+| 최종 학습 정확도 (accuracy) | **99.7%** |
+| 최종 검증 정확도 (val_accuracy) | **약 42%** |
+| 최종 검증 손실 (val_loss) | **약 3.69** |
