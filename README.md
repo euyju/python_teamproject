@@ -41,7 +41,7 @@ FoodProject/
 ├── predict.py         # 예측 및 결과 출력 코드
 ├── split_food101.py   # 이미지 분할 스크립트
 └── README.md          # 이 문서
-```plaintext
+```
 ---
 
 ## 학습 성능 평가
