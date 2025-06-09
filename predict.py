@@ -31,5 +31,5 @@ def predict_food(img_path):
     pred_index = np.argmax(pred)
     pred_class = class_labels[pred_index]
 
-    print(f"✅ 예측 결과: {pred_class}")
+    print(f" 예측 결과: {pred_class}")
     return pred_class
