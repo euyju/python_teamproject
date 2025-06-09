@@ -18,7 +18,8 @@ for category in categories:
     train_cutoff = int(0.8 * len(image_paths))
     train_images = image_paths[:train_cutoff]
     val_images = image_paths[train_cutoff:]
-
+    print(f"분할 중: {category} ({len(image_paths)}장)")
+    
     # 폴더 생성
     (train_dir / category).mkdir(parents=True, exist_ok=True)
     (val_dir / category).mkdir(parents=True, exist_ok=True)
@@ -29,4 +30,4 @@ for category in categories:
     for img_path in val_images:
         shutil.copy(img_path, val_dir / category / img_path.name)
 
-print("✅ 이미지 분할 완료: data/train, data/val 폴더 생성됨")
+print("이미지 분할 완료: data/train, data/val 폴더 생성됨")
